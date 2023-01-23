@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #f6f6f8;
+    font-family: 'Figtree', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 22px;
+    font-weight: 570;
+    color: #585b5b;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    background-color: #f67333;
+    color: #FFFFFF;
+    box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.3);
+    transition: all ease 0.2s;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.photo {
+    width: 500px;
+    height: 500px;
+}
+
+.content {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-text {
+    width: 500px;
+}
+
+.main-text h1 {
+    font-size: 30px;
+    color: #585b5b;
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+}
+
+.main-text p,.s-box-text p,.contact-box p {
+    color: #585b5b;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.contact-btn {
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #f67333;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.contact-btn:hover {
+    background-color: #ff9264;
+    transition: all ease 0.2s;
+}
+
+#education {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto auto 50px auto;
+}
+
+.ed-text {
+    width: 500px;
+}
+
+.ed-img {
+    width: 450px;
+    height: 450px;
+}
+
+.ed-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ed-hading h2,.skill-text h2, h2 {
+    color: #5b5a5a;
+    font-size: 25px;
+    margin: 0px;
+    letter-spacing: 1px;
+}
+
+.e-box-tex p {
+    color: #585b5b;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto auto 20px auto;
+}
+
+.skill-text {
+    width: 500px;
+}
+
+.skill-img {
+    width: 450px;
+    height: 450px;
+}
+
+.skill-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.skill-box {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.s-box-text strong {
+    color: #737373;
+    margin: 0px;
+    font-size: 16px;
+
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.c-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.contact-box {
+    width: 310px;
+    height: 350px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+}
+
+.contact-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contact-box h3{
+    color: #585b5b;
+    letter-spacing: 1px;
+}
+
